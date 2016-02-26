@@ -1,0 +1,11 @@
+
+
+name: mi módulo
+description: Módulo para acciones
+package: Farre
+
+type: module
+core: 8.x
+
+dependencies:
+  - block

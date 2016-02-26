@@ -1,0 +1,15 @@
+<?php
+/**
+ * Theme hook
+ */
+function mi_modulo_theme($existing, $type, $theme, $path) {
+    
+    return array('mi_modulo' =>
+        array(
+            'variables' => array(
+                'titulo' => 'Título por defecto', 
+                'descripcion' => 'descripción por defecto'
+                ),
+            'template' => 'mi-bloque'
+        ));
+}
